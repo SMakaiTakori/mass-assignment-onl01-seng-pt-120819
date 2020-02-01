@@ -4,7 +4,7 @@ class Person
   :t_shirt_size, :wrist_size, :glove_size, :pant_length, :pant_width
  
   def initialize(attributes)
-    attributes.each
+    attributes.each {|key, value|    }
   end
  
 end
